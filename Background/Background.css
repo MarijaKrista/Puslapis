@@ -1,0 +1,7 @@
+.Foto {
+    background-image: url(./foto.jpg);
+    background-size:cover;                   
+    background-repeat:no-repeat;
+    background-position:center; 
+}
+
