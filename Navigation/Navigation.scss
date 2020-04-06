@@ -1,0 +1,50 @@
+.navigation {
+   position:fix;
+   top:0;
+   left:0;
+   width:100%;
+   /* background-color: lightgrey; */
+   height: 50px;
+}
+
+.navigation_bar {
+    display:flex;
+    height:100%;
+    align-items: center;
+    padding: 0 1rem;
+    
+}
+
+.navigation_home a {
+    text-decoration: none;
+    font-size: 1.3 rem;
+    color: mediumturquoise;
+    text-transform: uppercase;
+}
+.space{
+    flex: 1;
+}
+
+.navigation_items {
+    ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+    li {
+    padding: 0 0.5rem;
+    text-transform: uppercase;
+}
+
+    a {
+    color: mediumturquoise;
+    text-decoration:none;
+    font-size: 1.3 rem;
+}
+
+    a:hover,
+    a:active {
+    color:yellow;
+}
+}
